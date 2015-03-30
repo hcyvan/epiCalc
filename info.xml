@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This document shows the infomations of some physical and chemical properties. We can get the scale of a given property. And we can also add some new properties to this document. -->
+<info>
+<property id="Hydrophlicity">
+<subproperty id="0">
+	<description>Hydrophlicity...</description>
+	<source>New hydrophilicity scale derived from  high-performance liquid chromatography peptide retention data correlation of predicted surface residues with antigenicity and X-ray-derived accessible sites. Parker and Hodges. 1986.</source>
+	<scale>
+	<li><aa>A</aa><value>2.1</value></li>
+	<li><aa>C</aa><value>1.4</value></li>
+	<li><aa>D</aa><value>10.0</value></li>
+	<li><aa>E</aa><value>7.8</value></li>
+	<li><aa>F</aa><value>-9.2</value></li>
+	<li><aa>G</aa><value>5.7</value></li>
+	<li><aa>H</aa><value>2.1</value></li>
+	<li><aa>I</aa><value>-8.0</value></li>
+	<li><aa>K</aa><value>5.7</value></li>
+	<li><aa>L</aa><value>-9.2</value></li>
+	<li><aa>M</aa><value>-4.2</value></li>
+	<li><aa>N</aa><value>7.0</value></li>
+	<li><aa>P</aa><value>2.1</value></li>
+	<li><aa>Q</aa><value>6.0</value></li>
+	<li><aa>R</aa><value>4.2</value></li>
+	<li><aa>S</aa><value>6.5</value></li>
+	<li><aa>T</aa><value>5.2</value></li>
+	<li><aa>V</aa><value>-3.7</value></li>
+	<li><aa>W</aa><value>-10.0</value></li>
+	<li><aa>Y</aa><value>-1.9</value></li>
+	</scale>
+</subproperty>
+</property>
+</info>
