@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- This document shows the infomations of some physical and chemical properties. We can get the scale of a given property. And we can also add some new properties to this document. -->
+<!-- This document shows the infomations of some physical and chemical properties. We can get the scale of a given property. And we can also add some new properties to this document.
+You can copy this temple and use your content to replace "..." 
+*************************************************************
+<property id="">
+	<description>...</description>
+	<source>...</source>
+	<scale>
+	<li><aa>A</aa><value>...</value></li>
+	<li><aa>C</aa><value>...</value></li>
+	<li><aa>D</aa><value>...</value></li>
+	<li><aa>E</aa><value>...</value></li>
+	<li><aa>F</aa><value>...</value></li>
+	<li><aa>G</aa><value>...</value></li>
+	<li><aa>H</aa><value>...</value></li>
+	<li><aa>I</aa><value>...</value></li>
+	<li><aa>K</aa><value>...</value></li>
+	<li><aa>L</aa><value>...</value></li>
+	<li><aa>M</aa><value>...</value></li>
+	<li><aa>N</aa><value>...</value></li>
+	<li><aa>P</aa><value>...</value></li>
+	<li><aa>Q</aa><value>...</value></li>
+	<li><aa>R</aa><value>...</value></li>
+	<li><aa>S</aa><value>...</value></li>
+	<li><aa>T</aa><value>...</value></li>
+	<li><aa>V</aa><value>...</value></li>
+	<li><aa>W</aa><value>...</value></li>
+	<li><aa>Y</aa><value>...</value></li>
+	</scale>
+</property>
+*************************************************************
+-->
 <info>
 <property id="Hydrophlicity">
-<subproperty id="0">
 	<description>Hydrophlicity...</description>
 	<source>New hydrophilicity scale derived from  high-performance liquid chromatography peptide retention data correlation of predicted surface residues with antigenicity and X-ray-derived accessible sites. Parker and Hodges. 1986.</source>
 	<scale>
@@ -27,6 +56,83 @@
 	<li><aa>W</aa><value>-10.0</value></li>
 	<li><aa>Y</aa><value>-1.9</value></li>
 	</scale>
-</subproperty>
+</property>
+<property id="Antigenicity">
+	<description>Antigenicity...</description>
+	<source>...</source>
+	<scale>
+	<li><aa>A</aa><value>1.064</value></li>
+	<li><aa>C</aa><value>1.412</value></li>
+	<li><aa>D</aa><value>0.866</value></li>
+	<li><aa>E</aa><value>0.851</value></li>
+	<li><aa>F</aa><value>1.091</value></li>
+	<li><aa>G</aa><value>0.874</value></li>
+	<li><aa>H</aa><value>1.105</value></li>
+	<li><aa>I</aa><value>1.152</value></li>
+	<li><aa>K</aa><value>0.93</value></li>
+	<li><aa>L</aa><value>1.25</value></li>
+	<li><aa>M</aa><value>0.862</value></li>
+	<li><aa>N</aa><value>0.776</value></li>
+	<li><aa>P</aa><value>1.064</value></li>
+	<li><aa>Q</aa><value>1.015</value></li>
+	<li><aa>R</aa><value>0.873</value></li>
+	<li><aa>S</aa><value>1.012</value></li>
+	<li><aa>T</aa><value>0.909</value></li>
+	<li><aa>V</aa><value>1.383</value></li>
+	<li><aa>W</aa><value>0.893</value></li>
+	<li><aa>Y</aa><value>1.161</value></li>
+	</scale>
+</property>
+<property id="Beta_turn">
+	<description>beta_turn...</description>
+	<source>...</source>
+	<scale>
+	<li><aa>A</aa><value>0.66</value></li>
+	<li><aa>C</aa><value>1.19</value></li>
+	<li><aa>D</aa><value>1.46</value></li>
+	<li><aa>E</aa><value>0.74</value></li>
+	<li><aa>F</aa><value>0.6</value></li>
+	<li><aa>G</aa><value>1.56</value></li>
+	<li><aa>H</aa><value>0.95</value></li>
+	<li><aa>I</aa><value>0.47</value></li>
+	<li><aa>K</aa><value>1.01</value></li>
+	<li><aa>L</aa><value>0.59</value></li>
+	<li><aa>M</aa><value>0.6</value></li>
+	<li><aa>N</aa><value>1.56</value></li>
+	<li><aa>P</aa><value>1.52</value></li>
+	<li><aa>Q</aa><value>0.98</value></li>
+	<li><aa>R</aa><value>0.95</value></li>
+	<li><aa>S</aa><value>1.43</value></li>
+	<li><aa>T</aa><value>0.96</value></li>
+	<li><aa>V</aa><value>0.5</value></li>
+	<li><aa>W</aa><value>0.96</value></li>
+	<li><aa>Y</aa><value>1.14</value></li>
+	</scale>
+</property>
+<property id="Accessibility">
+	<description>accessibility...</description>
+	<source>...</source>
+	<scale>
+	<li><aa>A</aa><value>0.49</value></li>
+	<li><aa>C</aa><value>0.26</value></li>
+	<li><aa>D</aa><value>0.81</value></li>
+	<li><aa>E</aa><value>0.84</value></li>
+	<li><aa>F</aa><value>0.42</value></li>
+	<li><aa>G</aa><value>0.48</value></li>
+	<li><aa>H</aa><value>0.66</value></li>
+	<li><aa>I</aa><value>0.34</value></li>
+	<li><aa>K</aa><value>0.97</value></li>
+	<li><aa>L</aa><value>0.4</value></li>
+	<li><aa>M</aa><value>0.48</value></li>
+	<li><aa>N</aa><value>0.78</value></li>
+	<li><aa>P</aa><value>0.75</value></li>
+	<li><aa>Q</aa><value>0.84</value></li>
+	<li><aa>R</aa><value>0.95</value></li>
+	<li><aa>S</aa><value>0.65</value></li>
+	<li><aa>T</aa><value>0.7</value></li>
+	<li><aa>V</aa><value>0.36</value></li>
+	<li><aa>W</aa><value>0.51</value></li>
+	<li><aa>Y</aa><value>0.76</value></li>
+	</scale>
 </property>
 </info>
