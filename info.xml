@@ -110,8 +110,8 @@ You can copy this temple and use your content to replace "..."
 	</scale>
 </property>
 <property id="Accessibility">
-	<description>accessibility...</description>
-	<source>...</source>
+	<description>Accessibility:Work out the product, "product",of the scale of each amino acid in a give window. Then multipy "product" with pow(0.37,-6), so we get,seqeunce "profile" ,a list of window profiles. Then the final "profileFinal"="profile"/average("profile)  </description>
+	<source>Emini EA,Hughes JV,Perlow DS,Boger J.Induction of hepatitis A virus-neutralizing antibody by a virus-specific synthetic peptide. J Virol. 1985 Sep;55(3):836-9</source>
 	<scale>
 	<li><aa>A</aa><value>0.49</value></li>
 	<li><aa>C</aa><value>0.26</value></li>
